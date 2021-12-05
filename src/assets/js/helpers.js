@@ -109,19 +109,7 @@ export default {
 
     getIceServer() {
         return {
-            iceServers: [
-                {
-                    urls: ["stun:eu-turn4.xirsys.com"]
-                },
-                {
-                    username: "ml0jh0qMKZKd9P_9C0UIBY2G0nSQMCFBUXGlk6IXDJf8G2uiCymg9WwbEJTMwVeiAAAAAF2__hNSaW5vbGVl",
-                    credential: "4dd454a6-feee-11e9-b185-6adcafebbb45",
-                    urls: [
-                        "turn:eu-turn4.xirsys.com:80?transport=udp",
-                        "turn:eu-turn4.xirsys.com:3478?transport=tcp"
-                    ]
-                }
-            ]
+            iceServers: [{   urls: [ "stun:bn-turn1.xirsys.com" ]}, {   username: "HC4if_Ja27gh46R6EmbEjvh8UQpXJmsZjHrxKsC07AH-dp67mGobmQWlfGOtrnz6AAAAAGGstmxoYXJzaGl0Nzk=",   credential: "6ce62132-55ca-11ec-af4c-0242ac140004",   urls: [       "turn:bn-turn1.xirsys.com:80?transport=udp",       "turn:bn-turn1.xirsys.com:3478?transport=udp",       "turn:bn-turn1.xirsys.com:80?transport=tcp",       "turn:bn-turn1.xirsys.com:3478?transport=tcp",       "turns:bn-turn1.xirsys.com:443?transport=tcp",       "turns:bn-turn1.xirsys.com:5349?transport=tcp"   ]}]
         };
     },
 
